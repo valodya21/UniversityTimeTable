@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            xmlns="http://javafx.com/javafx/8">
+  <MenuBar layoutY="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <Menu mnemonicParsing="false" text="File">
+      <MenuItem mnemonicParsing="false" text="Close"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Edit">
+      <MenuItem mnemonicParsing="false" text="Delete"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+      <MenuItem mnemonicParsing="false" text="About"/>
+    </Menu>
+  </MenuBar>
+</AnchorPane>
