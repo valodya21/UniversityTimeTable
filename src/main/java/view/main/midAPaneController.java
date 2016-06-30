@@ -1,5 +1,7 @@
-package view;
+package view.main;
 
+import content.controllers.TabPaneController;
+import content.controllers.TreeViewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TabPane;
@@ -30,5 +32,7 @@ public class midAPaneController implements InitFX{
 
     public void initialize(URL location, ResourceBundle resources) {
         SplitPane.setResizableWithParent(mainTreeView, Boolean.FALSE);
+        TreeViewController.setMainTreeView(mainTreeView);
+        TabPaneController.setMainTabPane(mainTabPane);
     }
 }
