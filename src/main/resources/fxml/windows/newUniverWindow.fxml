@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="newUniverWindow" maxHeight="95.0" maxWidth="360.0" minHeight="95.0" minWidth="360.0"
+            prefHeight="95.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="view.window.add.NewUniverWindowController">
+   <Label layoutX="14.0" layoutY="14.0" text="Write her Name of ure University"/>
+   <TextField fx:id="univerNameTextField" layoutX="196.0" layoutY="10.0" AnchorPane.leftAnchor="200.0"
+              AnchorPane.topAnchor="10.0"/>
+   <Button fx:id="addButton" layoutX="297.0" layoutY="58.0" mnemonicParsing="false" text="Add"
+           AnchorPane.leftAnchor="310.0" AnchorPane.topAnchor="60.0"/>
+   <Label fx:id="massageLabel" layoutX="14.0" layoutY="35.0" text="Massage_text"/>
+   <Button fx:id="cancelButton" layoutX="14.0" layoutY="58.0" mnemonicParsing="false" text="Cancel"
+           AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="60.0"/>
+</AnchorPane>

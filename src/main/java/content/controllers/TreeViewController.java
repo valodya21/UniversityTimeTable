@@ -1,5 +1,7 @@
 package content.controllers;
 
+import javafx.scene.control.ContextMenu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TreeView;
 
 /**
@@ -11,9 +13,21 @@ public class TreeViewController {
 
     public static void setMainTreeView(TreeView treeView){
         mainTreeView = treeView;
+        setContextMenu();
     }
 
     public static TreeView getMainTreeView(){
         return mainTreeView;
+    }
+
+    private static void setContextMenu(){
+        ContextMenu contextMenu = new ContextMenu();
+        MenuItem menuItem = new MenuItem();
+
+        menuItem.setText("Add new University");
+        menuItem.setOnAction(event -> ContentController.addNewUniverAction());
+
+        contextMenu.getItems().add(menuItem);
+        mainTreeView.setContextMenu(contextMenu);
     }
 }

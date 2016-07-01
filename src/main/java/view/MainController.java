@@ -19,6 +19,11 @@ public class MainController implements InitFX {
 
     }
 
+    @Override
+    public void myInit(Object o) {
+
+    }
+
     public void initialize(URL location, ResourceBundle resources) {
         FXContentLoader.loadTo(topAPane, "/fxml/main/topAPane.fxml");
         FXContentLoader.loadTo(midAPane, "/fxml/main/midAPane.fxml");

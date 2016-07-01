@@ -30,6 +30,11 @@ public class midAPaneController implements InitFX{
 
     }
 
+    @Override
+    public void myInit(Object o) {
+
+    }
+
     public void initialize(URL location, ResourceBundle resources) {
         SplitPane.setResizableWithParent(mainTreeView, Boolean.FALSE);
         TreeViewController.setMainTreeView(mainTreeView);

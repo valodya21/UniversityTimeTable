@@ -12,7 +12,7 @@ import vlasovjr.javafx.image.Imager;
  */
 public class MyTab extends Tab {
 
-    boolean closable = true;
+    private boolean closable = true;
 
     /**
      * Creates a tab with no title.
